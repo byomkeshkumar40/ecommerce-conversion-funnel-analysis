@@ -1,0 +1,19 @@
+# environments / caches
+.venv/
+venv/
+env/
+.env
+.env.*
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+*.log
+
+# generated data (regenerate with: python -m src.generate_data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep

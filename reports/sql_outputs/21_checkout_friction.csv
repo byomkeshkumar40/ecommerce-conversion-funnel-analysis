@@ -1,0 +1,5 @@
+checkout_type,shipping,checkout_sessions,payment_attempts,purchases,checkout_to_payment_rate,checkout_to_purchase_rate
+account,fee_charged,898,675,647,0.7517,0.7205
+account,free_shipping,3165,2511,2437,0.7934,0.77
+guest,fee_charged,654,429,414,0.656,0.633
+guest,free_shipping,2291,1513,1457,0.6604,0.636

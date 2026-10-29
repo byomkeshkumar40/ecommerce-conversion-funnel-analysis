@@ -1,0 +1,7 @@
+category,viewed_sessions,carted_sessions,purchased_sessions,view_to_cart_rate,cart_to_purchase_rate
+Grocery,14082,1976,718,0.1403,0.3634
+Beauty,17508,2218,889,0.1267,0.4008
+Books,11958,1510,568,0.1263,0.3762
+Home & Kitchen,20651,2517,1011,0.1219,0.4017
+Fashion,27781,3221,1264,0.1159,0.3924
+Electronics,22856,2369,923,0.1036,0.3896

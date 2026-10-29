@@ -1,0 +1,7 @@
+segment_type,segment,carts,carts_abandoned,cart_abandonment_rate,checkouts,checkout_abandonment_rate,payment_attempts,payment_abandonment_rate
+overall,all,12851,7896,0.6144,7008,0.293,5128,0.0337
+device,desktop,4492,2548,0.5672,2532,0.2322,2027,0.0409
+device,mobile,7247,4707,0.6495,3823,0.3356,2620,0.0305
+device,tablet,1112,641,0.5764,653,0.2787,481,0.0208
+customer_type,new,6706,4304,0.6418,3485,0.3108,2489,0.035
+customer_type,returning,6145,3592,0.5845,3523,0.2753,2639,0.0326

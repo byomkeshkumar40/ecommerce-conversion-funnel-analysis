@@ -1,0 +1,200 @@
+[
+  {
+    "check": "unique primary key: customers.customer_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 duplicate keys"
+  },
+  {
+    "check": "unique primary key: products.product_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 duplicate keys"
+  },
+  {
+    "check": "unique primary key: sessions.session_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 duplicate keys"
+  },
+  {
+    "check": "unique primary key: events.event_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 duplicate keys"
+  },
+  {
+    "check": "unique primary key: orders.order_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 duplicate keys"
+  },
+  {
+    "check": "one order per session: orders.session_id unique",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 duplicates"
+  },
+  {
+    "check": "foreign key: sessions.customer_id -> customers.customer_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "foreign key: events.session_id -> sessions.session_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "foreign key: events.customer_id -> customers.customer_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "foreign key: orders.session_id -> sessions.session_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "foreign key: orders.customer_id -> customers.customer_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "foreign key: order_items.order_id -> orders.order_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "foreign key: order_items.product_id -> products.product_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orphans"
+  },
+  {
+    "check": "product events carry a product_id",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 missing"
+  },
+  {
+    "check": "no missing values in required columns",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 nulls"
+  },
+  {
+    "check": "timestamp parses: sessions.session_start",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 unparseable"
+  },
+  {
+    "check": "timestamp range: sessions.session_start",
+    "status": "PASS",
+    "count": 0,
+    "detail": "2025-01-01 00:04:34 .. 2025-06-30 23:56:26"
+  },
+  {
+    "check": "timestamp parses: events.event_ts",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 unparseable"
+  },
+  {
+    "check": "timestamp range: events.event_ts",
+    "status": "PASS",
+    "count": 0,
+    "detail": "2025-01-01 00:04:34 .. 2025-07-01 00:04:34"
+  },
+  {
+    "check": "timestamp parses: orders.order_ts",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 unparseable"
+  },
+  {
+    "check": "timestamp range: orders.order_ts",
+    "status": "PASS",
+    "count": 0,
+    "detail": "2025-01-01 02:47:27 .. 2025-07-01 00:04:34"
+  },
+  {
+    "check": "event_type values known",
+    "status": "PASS",
+    "count": 0,
+    "detail": "unknown: []"
+  },
+  {
+    "check": "duplicate events (same session/type/ts/product/payment, different event_id)",
+    "status": "WARN",
+    "count": 1419,
+    "detail": "1419 rows = 0.40% of events; funnel uses first timestamp per session so unaffected"
+  },
+  {
+    "check": "no event earlier than its session_start",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 events"
+  },
+  {
+    "check": "every session has a session_start event",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 sessions"
+  },
+  {
+    "check": "funnel ordering: stage event present without preceding stage",
+    "status": "WARN",
+    "count": 12,
+    "detail": "{'add_to_cart without valid product_view': 0, 'checkout_start without valid add_to_cart': 0, 'payment_attempt without valid checkout_start': 12, 'purchase_complete without valid payment_attempt': 0} \u2014 these sessions are excluded from later strict-funnel stages but counted here"
+  },
+  {
+    "check": "purchase events excluded from strict funnel (reported, not dropped)",
+    "status": "WARN",
+    "count": 12,
+    "detail": "12 sessions have purchase_complete but fail the strict chain"
+  },
+  {
+    "check": "orders <-> purchase_complete events match by session",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 orders w/o event, 0 events w/o order"
+  },
+  {
+    "check": "order_ts equals purchase_complete timestamp",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 mismatches"
+  },
+  {
+    "check": "payment_status in {success, failed}",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 bad"
+  },
+  {
+    "check": "positive prices and order values",
+    "status": "PASS",
+    "count": 0,
+    "detail": "0 non-positive"
+  },
+  {
+    "check": "all computed conversion rates within [0, 1]",
+    "status": "PASS",
+    "count": 0,
+    "detail": "21 rates checked"
+  },
+  {
+    "check": "funnel counts non-increasing by stage",
+    "status": "PASS",
+    "count": 0,
+    "detail": ""
+  }
+]

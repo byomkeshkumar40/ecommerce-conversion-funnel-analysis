@@ -1,0 +1,7 @@
+stage_no,stage,sessions_reaching_stage,step_conversion,overall_conversion,dropoff_from_previous,sessions_lost,unique_visitors
+1,session_start,95631,1.0,1.0,0.0,0,60000.0
+2,product_view,80758,0.8445,0.8445,0.1555,14873,
+3,add_to_cart,12851,0.1591,0.1344,0.8409,67907,
+4,checkout_start,7008,0.5453,0.0733,0.4547,5843,
+5,payment_attempt,5128,0.7317,0.0536,0.2683,1880,
+6,purchase_complete,4955,0.9663,0.0518,0.0337,173,

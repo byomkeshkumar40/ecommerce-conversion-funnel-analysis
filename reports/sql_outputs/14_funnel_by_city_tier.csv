@@ -1,0 +1,4 @@
+segment,sessions,product_views,carts,checkouts,payment_attempts,purchases,view_rate_of_sessions,step_view_to_cart,step_cart_to_checkout,step_checkout_to_payment,step_payment_to_purchase,purchase_rate_of_sessions
+tier_1,33237,28138,4476,2432,1809,1746,0.8466,0.1591,0.5433,0.7438,0.9652,0.0525
+tier_2,38479,32599,5230,2859,2081,2003,0.8472,0.1604,0.5467,0.7279,0.9625,0.0521
+tier_3,23915,20021,3145,1717,1238,1206,0.8372,0.1571,0.5459,0.721,0.9742,0.0504

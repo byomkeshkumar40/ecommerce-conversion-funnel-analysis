@@ -1,0 +1,6 @@
+payment_method,attempts,failed_attempts,attempt_failure_rate
+upi,2184,184,0.0842
+card,1263,177,0.1401
+cod,1142,13,0.0114
+netbanking,425,53,0.1247
+wallet,397,17,0.0428

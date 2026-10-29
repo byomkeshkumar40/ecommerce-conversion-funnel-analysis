@@ -1,0 +1,7 @@
+segment,sessions,product_views,carts,checkouts,payment_attempts,purchases,view_rate_of_sessions,step_view_to_cart,step_cart_to_checkout,step_checkout_to_payment,step_payment_to_purchase,purchase_rate_of_sessions
+email,8971,8123,1729,935,699,671,0.9055,0.2129,0.5408,0.7476,0.9599,0.0748
+direct,19897,17694,3286,1806,1341,1302,0.8893,0.1857,0.5496,0.7425,0.9709,0.0654
+referral,10587,8958,1391,764,567,552,0.8461,0.1553,0.5492,0.7421,0.9735,0.0521
+organic_search,24472,21219,3278,1792,1304,1252,0.8671,0.1545,0.5467,0.7277,0.9601,0.0512
+paid_search,18155,14603,1964,1062,748,726,0.8044,0.1345,0.5407,0.7043,0.9706,0.04
+social,13549,10161,1203,649,469,452,0.7499,0.1184,0.5395,0.7227,0.9638,0.0334

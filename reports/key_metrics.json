@@ -1,0 +1,297 @@
+{
+  "headline": {
+    "sessions": 95631,
+    "visitors": 60000,
+    "purchases": 4955,
+    "purchase_rate": 0.051813742405705264
+  },
+  "funnel": [
+    {
+      "stage_no": 1,
+      "stage": "Sessions",
+      "sessions": 95631,
+      "step_conversion": 1.0,
+      "overall_conversion": 1.0,
+      "dropoff_from_previous": 0.0,
+      "sessions_lost": 0
+    },
+    {
+      "stage_no": 2,
+      "stage": "Product view",
+      "sessions": 80758,
+      "step_conversion": 0.844475117901099,
+      "overall_conversion": 0.844475117901099,
+      "dropoff_from_previous": 0.15552488209890103,
+      "sessions_lost": 14873
+    },
+    {
+      "stage_no": 3,
+      "stage": "Add to cart",
+      "sessions": 12851,
+      "step_conversion": 0.1591297456598727,
+      "overall_conversion": 0.1343811107276929,
+      "dropoff_from_previous": 0.8408702543401273,
+      "sessions_lost": 67907
+    },
+    {
+      "stage_no": 4,
+      "stage": "Checkout start",
+      "sessions": 7008,
+      "step_conversion": 0.5453272118901252,
+      "overall_conversion": 0.07328167644383098,
+      "dropoff_from_previous": 0.45467278810987477,
+      "sessions_lost": 5843
+    },
+    {
+      "stage_no": 5,
+      "stage": "Payment attempt",
+      "sessions": 5128,
+      "step_conversion": 0.7317351598173516,
+      "overall_conversion": 0.05362277922431011,
+      "dropoff_from_previous": 0.2682648401826484,
+      "sessions_lost": 1880
+    },
+    {
+      "stage_no": 6,
+      "stage": "Purchase",
+      "sessions": 4955,
+      "step_conversion": 0.9662636505460218,
+      "overall_conversion": 0.051813742405705264,
+      "dropoff_from_previous": 0.03373634945397819,
+      "sessions_lost": 173
+    }
+  ],
+  "abandonment": {
+    "carts": 12851,
+    "cart_abandonment_rate": 0.6144268928488055,
+    "checkouts": 7008,
+    "checkout_abandonment_rate": 0.29295091324200917,
+    "payment_attempts": 5128,
+    "payment_abandonment_rate": 0.03373634945397819
+  },
+  "customer_level": {
+    "customers": 60000,
+    "purchasing_customers": 4736,
+    "customer_conversion_rate": 0.07893333333333333,
+    "first_session_conversion_rate": 0.04003333333333333,
+    "avg_sessions_per_customer": 1.59385,
+    "session_conversion_rate": 0.051813742405705264
+  },
+  "repeat_purchase": {
+    "customers_with_order": 4748,
+    "repeat_customers": 209,
+    "repeat_purchase_rate": 0.04401853411962932,
+    "total_orders": 4967,
+    "avg_days_between_1st_and_2nd_order": 16.700460969342547
+  },
+  "retry_recovery": {
+    "sessions_with_attempt": 5128,
+    "sessions_with_failure": 417,
+    "recovered": 244,
+    "recovery_rate": 0.5851318944844125
+  },
+  "segment_device": [
+    {
+      "segment": "desktop",
+      "sessions": 28572,
+      "purchases": 1944,
+      "view_rate_of_sessions": 0.8565728685426292,
+      "step_view_to_cart": 0.18354171774127645,
+      "step_cart_to_checkout": 0.5636687444345503,
+      "step_checkout_to_payment": 0.8005529225908373,
+      "step_payment_to_purchase": 0.9590527873704983,
+      "purchase_rate_of_sessions": 0.06803863922721545,
+      "ci_low": 0.0651764656227649,
+      "ci_high": 0.07101695448633873,
+      "p_vs_rest": 2.0955795063977357e-49
+    },
+    {
+      "segment": "tablet",
+      "sessions": 7718,
+      "purchases": 471,
+      "view_rate_of_sessions": 0.8522933402435864,
+      "step_view_to_cart": 0.16904834296138643,
+      "step_cart_to_checkout": 0.5872302158273381,
+      "step_checkout_to_payment": 0.7366003062787136,
+      "step_payment_to_purchase": 0.9792099792099792,
+      "purchase_rate_of_sessions": 0.061026172583570876,
+      "ci_low": 0.05590084447189509,
+      "ci_high": 0.06658827781209481,
+      "p_vs_rest": 0.00013993074651152672
+    },
+    {
+      "segment": "mobile",
+      "sessions": 59341,
+      "purchases": 2540,
+      "view_rate_of_sessions": 0.8376333395123102,
+      "step_view_to_cart": 0.14579728805375608,
+      "step_cart_to_checkout": 0.5275286325376017,
+      "step_checkout_to_payment": 0.6853256604760659,
+      "step_payment_to_purchase": 0.9694656488549618,
+      "purchase_rate_of_sessions": 0.04280345798014863,
+      "ci_low": 0.04120422198342052,
+      "ci_high": 0.0444618858523109,
+      "p_vs_rest": 3.8165027480692326e-58
+    }
+  ],
+  "segment_channel": [
+    {
+      "segment": "email",
+      "sessions": 8971,
+      "purchases": 671,
+      "view_rate_of_sessions": 0.9054731913944933,
+      "step_view_to_cart": 0.21285239443555337,
+      "step_cart_to_checkout": 0.5407750144592249,
+      "step_checkout_to_payment": 0.7475935828877005,
+      "step_payment_to_purchase": 0.9599427753934192,
+      "purchase_rate_of_sessions": 0.07479656671497047,
+      "ci_low": 0.06953298264250622,
+      "ci_high": 0.08042415977658675,
+      "p_vs_rest": 5.916931229943428e-25
+    },
+    {
+      "segment": "direct",
+      "sessions": 19897,
+      "purchases": 1302,
+      "view_rate_of_sessions": 0.8892797909232547,
+      "step_view_to_cart": 0.185712670961908,
+      "step_cart_to_checkout": 0.5496043822276324,
+      "step_checkout_to_payment": 0.7425249169435216,
+      "step_payment_to_purchase": 0.970917225950783,
+      "purchase_rate_of_sessions": 0.06543700055284717,
+      "ci_low": 0.06208399650752833,
+      "ci_high": 0.06895777812777151,
+      "p_vs_rest": 1.9909167227391164e-22
+    },
+    {
+      "segment": "referral",
+      "sessions": 10587,
+      "purchases": 552,
+      "view_rate_of_sessions": 0.8461320487390196,
+      "step_view_to_cart": 0.15528019647242688,
+      "step_cart_to_checkout": 0.5492451473759885,
+      "step_checkout_to_payment": 0.7421465968586387,
+      "step_payment_to_purchase": 0.9735449735449735,
+      "purchase_rate_of_sessions": 0.05213941626523094,
+      "ci_low": 0.04806479852833087,
+      "ci_high": 0.05653893759024162,
+      "p_vs_rest": 0.8726319553193205
+    },
+    {
+      "segment": "organic_search",
+      "sessions": 24472,
+      "purchases": 1252,
+      "view_rate_of_sessions": 0.8670725727361883,
+      "step_view_to_cart": 0.15448418869880767,
+      "step_cart_to_checkout": 0.5466748017083588,
+      "step_checkout_to_payment": 0.7276785714285714,
+      "step_payment_to_purchase": 0.9601226993865031,
+      "purchase_rate_of_sessions": 0.05116050997057862,
+      "ci_low": 0.04846979182951028,
+      "ci_high": 0.05399212310623601,
+      "p_vs_rest": 0.5930212852420638
+    },
+    {
+      "segment": "paid_search",
+      "sessions": 18155,
+      "purchases": 726,
+      "view_rate_of_sessions": 0.8043514183420545,
+      "step_view_to_cart": 0.13449291241525713,
+      "step_cart_to_checkout": 0.5407331975560081,
+      "step_checkout_to_payment": 0.704331450094162,
+      "step_payment_to_purchase": 0.9705882352941176,
+      "purchase_rate_of_sessions": 0.039988983751032776,
+      "ci_low": 0.03723480160642022,
+      "ci_high": 0.04293780147416397,
+      "p_vs_rest": 1.3923086874181523e-15
+    },
+    {
+      "segment": "social",
+      "sessions": 13549,
+      "purchases": 452,
+      "view_rate_of_sessions": 0.7499446453612812,
+      "step_view_to_cart": 0.11839385887215825,
+      "step_cart_to_checkout": 0.5394846217788861,
+      "step_checkout_to_payment": 0.7226502311248074,
+      "step_payment_to_purchase": 0.9637526652452025,
+      "purchase_rate_of_sessions": 0.03336039560115138,
+      "ci_low": 0.03046642175278544,
+      "ci_high": 0.036518910681115346,
+      "p_vs_rest": 1.3174995965494154e-25
+    }
+  ],
+  "segment_customer_type": [
+    {
+      "segment": "returning",
+      "sessions": 35631,
+      "purchases": 2553,
+      "view_rate_of_sessions": 0.8634335269849288,
+      "step_view_to_cart": 0.1997399642450837,
+      "step_cart_to_checkout": 0.5733116354759967,
+      "step_checkout_to_payment": 0.7490774907749077,
+      "step_payment_to_purchase": 0.9674118984463812,
+      "purchase_rate_of_sessions": 0.07165109034267912,
+      "ci_low": 0.06901902373715785,
+      "ci_high": 0.07437551291766484,
+      "p_vs_rest": 6.229593284283612e-101
+    },
+    {
+      "segment": "new",
+      "sessions": 60000,
+      "purchases": 2402,
+      "view_rate_of_sessions": 0.8332166666666667,
+      "step_view_to_cart": 0.1341387794291201,
+      "step_cart_to_checkout": 0.5196838651953475,
+      "step_checkout_to_payment": 0.7142037302725969,
+      "step_payment_to_purchase": 0.9650462032944958,
+      "purchase_rate_of_sessions": 0.04003333333333333,
+      "ci_low": 0.03849392942684037,
+      "ci_high": 0.041631633733768984,
+      "p_vs_rest": 6.229593284283612e-101
+    }
+  ],
+  "segment_city_tier": [
+    {
+      "segment": "tier_1",
+      "sessions": 33237,
+      "purchases": 1746,
+      "view_rate_of_sessions": 0.8465866353762374,
+      "step_view_to_cart": 0.1590731395266188,
+      "step_cart_to_checkout": 0.5433422698838248,
+      "step_checkout_to_payment": 0.7438322368421053,
+      "step_payment_to_purchase": 0.9651741293532339,
+      "purchase_rate_of_sessions": 0.05253181695098836,
+      "ci_low": 0.05018461709559187,
+      "ci_high": 0.05498244341589652,
+      "p_vs_rest": 0.46465403593650884
+    },
+    {
+      "segment": "tier_2",
+      "sessions": 38479,
+      "purchases": 2003,
+      "view_rate_of_sessions": 0.8471893760232855,
+      "step_view_to_cart": 0.16043436915242798,
+      "step_cart_to_checkout": 0.5466539196940726,
+      "step_checkout_to_payment": 0.7278768800279818,
+      "step_payment_to_purchase": 0.9625180201826046,
+      "purchase_rate_of_sessions": 0.052054367317237976,
+      "ci_low": 0.049879196730756345,
+      "ci_high": 0.05431897142115062,
+      "p_vs_rest": 0.7829588304692314
+    },
+    {
+      "segment": "tier_3",
+      "sessions": 23915,
+      "purchases": 1206,
+      "view_rate_of_sessions": 0.8371733221827306,
+      "step_view_to_cart": 0.1570850606862794,
+      "step_cart_to_checkout": 0.5459459459459459,
+      "step_checkout_to_payment": 0.7210250436808386,
+      "step_payment_to_purchase": 0.9741518578352181,
+      "purchase_rate_of_sessions": 0.05042860129625758,
+      "ci_low": 0.047726621806795856,
+      "ci_high": 0.05327499191683865,
+      "p_vs_rest": 0.2644364043068869
+    }
+  ]
+}

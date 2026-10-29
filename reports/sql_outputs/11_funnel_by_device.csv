@@ -1,0 +1,4 @@
+segment,sessions,product_views,carts,checkouts,payment_attempts,purchases,view_rate_of_sessions,step_view_to_cart,step_cart_to_checkout,step_checkout_to_payment,step_payment_to_purchase,purchase_rate_of_sessions
+desktop,28572,24474,4492,2532,2027,1944,0.8566,0.1835,0.5637,0.8006,0.9591,0.068
+tablet,7718,6578,1112,653,481,471,0.8523,0.169,0.5872,0.7366,0.9792,0.061
+mobile,59341,49706,7247,3823,2620,2540,0.8376,0.1458,0.5275,0.6853,0.9695,0.0428
