@@ -40,4 +40,4 @@ Report: added reconciliation table, fixed overstated wording. Dashboard: funnel 
 - Repository is not a git repo; nothing was committed or published. Raw CSVs are 31 MB, so decide whether to commit them.
 
 ## Publication-prep addendum
-Raw CSVs and the SQLite DB are git-ignored and regenerated from the seeded generator. A fresh-clone reproduction (clone → new venv → install → generate → validate → SQL → analysis → pytest) was run before the first commit; see the commit summary / handover for its result.
+Raw CSVs and the SQLite DB are git-ignored and regenerated from the seeded generator. A fresh-clone reproduction (clone → new venv → install → generate → validate → SQL → analysis → pytest) was run before the first commit; result: PASS. From a clean `git clone` into a new directory and venv, `generate_data`, `validate` (exit 0), `run_sql`, `analysis` and `pytest` (36 passed) all ran; regenerated CSVs were byte-identical to the originals; the dashboard server responded HTTP 200; and the regenerated tracked reports left `git status` clean.
