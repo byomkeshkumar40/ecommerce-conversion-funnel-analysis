@@ -47,7 +47,7 @@ Real captures of the running app (Streamlit 1.66, headless Chromium):
 ## Reproduce from a fresh clone
 The generated CSVs are **not committed** (git-ignored); the seeded generator recreates them byte-for-byte. Run the steps in order — validation, SQL, analysis, tests and the dashboard all read `data/raw/`.
 ```bash
-git clone <your-repo-url> ecommerce-conversion-funnel && cd ecommerce-conversion-funnel
+git clone https://github.com/byomkeshkumar40/ecommerce-conversion-funnel-analysis.git && cd ecommerce-conversion-funnel-analysis
 ```
 ```bash
 python3 -m venv .venv && source .venv/bin/activate

@@ -36,7 +36,7 @@ Report: added reconciliation table, fixed overstated wording. Dashboard: funnel 
 - Screenshots capture only the first screen of each page.
 - Weekly trend week of 2024-12-30 is partial (data starts 1 Jan); hidden by default in the dashboard.
 - p-values are unadjusted for multiple comparisons (disclosed).
-- Resume bullets remain provisional until you reproduce the work.
+- Resume bullets are intentionally not part of the repository; the author prepares them after independent review.
 - Repository is not a git repo; nothing was committed or published. Raw CSVs are 31 MB, so decide whether to commit them.
 
 ## Publication-prep addendum
